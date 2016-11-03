@@ -14,6 +14,8 @@
 		15933D441DCA830700A8D067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15933D421DCA830700A8D067 /* Main.storyboard */; };
 		15933D461DCA830700A8D067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15933D451DCA830700A8D067 /* Assets.xcassets */; };
 		15933D491DCA830700A8D067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15933D471DCA830700A8D067 /* LaunchScreen.storyboard */; };
+		15933D521DCA897A00A8D067 /* HeartRateSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D511DCA897A00A8D067 /* HeartRateSensor.m */; };
+		15933D581DCA8B1000A8D067 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15933D571DCA8B1000A8D067 /* CoreBluetooth.framework */; };
 		15933D5C1DCA8C5500A8D067 /* WeakSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D5B1DCA8C5500A8D067 /* WeakSet.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,9 @@
 		15933D451DCA830700A8D067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15933D481DCA830700A8D067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15933D4A1DCA830700A8D067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15933D501DCA897A00A8D067 /* HeartRateSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartRateSensor.h; path = comm/HeartRateSensor.h; sourceTree = "<group>"; };
+		15933D511DCA897A00A8D067 /* HeartRateSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeartRateSensor.m; path = comm/HeartRateSensor.m; sourceTree = "<group>"; };
+		15933D571DCA8B1000A8D067 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		15933D5A1DCA8C5500A8D067 /* WeakSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeakSet.h; path = util/WeakSet.h; sourceTree = "<group>"; };
 		15933D5B1DCA8C5500A8D067 /* WeakSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeakSet.m; path = util/WeakSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15933D581DCA8B1000A8D067 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +54,7 @@
 		15933D2A1DCA830700A8D067 = {
 			isa = PBXGroup;
 			children = (
+				15933D571DCA8B1000A8D067 /* CoreBluetooth.framework */,
 				15933D351DCA830700A8D067 /* fitt */,
 				15933D341DCA830700A8D067 /* Products */,
 			);
@@ -65,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				15933D591DCA8C3300A8D067 /* util */,
+				15933D531DCA8ACD00A8D067 /* comm */,
 				15933D391DCA830700A8D067 /* AppDelegate.h */,
 				15933D3A1DCA830700A8D067 /* AppDelegate.m */,
 				15933D3C1DCA830700A8D067 /* MasterViewController.h */,
@@ -86,6 +94,15 @@
 				15933D371DCA830700A8D067 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15933D531DCA8ACD00A8D067 /* comm */ = {
+			isa = PBXGroup;
+			children = (
+				15933D501DCA897A00A8D067 /* HeartRateSensor.h */,
+				15933D511DCA897A00A8D067 /* HeartRateSensor.m */,
+			);
+			name = comm;
 			sourceTree = "<group>";
 		};
 		15933D591DCA8C3300A8D067 /* util */ = {
@@ -172,6 +189,7 @@
 				15933D3E1DCA830700A8D067 /* MasterViewController.m in Sources */,
 				15933D381DCA830700A8D067 /* main.m in Sources */,
 				15933D411DCA830700A8D067 /* DetailViewController.m in Sources */,
+				15933D521DCA897A00A8D067 /* HeartRateSensor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
