@@ -16,6 +16,7 @@
 		15933D491DCA830700A8D067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15933D471DCA830700A8D067 /* LaunchScreen.storyboard */; };
 		15933D521DCA897A00A8D067 /* HeartRateSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D511DCA897A00A8D067 /* HeartRateSensor.m */; };
 		15933D581DCA8B1000A8D067 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15933D571DCA8B1000A8D067 /* CoreBluetooth.framework */; };
+		15933D561DCA8B0200A8D067 /* Bike.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D551DCA8B0200A8D067 /* Bike.m */; };
 		15933D5C1DCA8C5500A8D067 /* WeakSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D5B1DCA8C5500A8D067 /* WeakSet.m */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		15933D501DCA897A00A8D067 /* HeartRateSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartRateSensor.h; path = comm/HeartRateSensor.h; sourceTree = "<group>"; };
 		15933D511DCA897A00A8D067 /* HeartRateSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeartRateSensor.m; path = comm/HeartRateSensor.m; sourceTree = "<group>"; };
 		15933D571DCA8B1000A8D067 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		15933D541DCA8B0200A8D067 /* Bike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bike.h; path = comm/Bike.h; sourceTree = "<group>"; };
+		15933D551DCA8B0200A8D067 /* Bike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bike.m; path = comm/Bike.m; sourceTree = "<group>"; };
 		15933D5A1DCA8C5500A8D067 /* WeakSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeakSet.h; path = util/WeakSet.h; sourceTree = "<group>"; };
 		15933D5B1DCA8C5500A8D067 /* WeakSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeakSet.m; path = util/WeakSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +104,8 @@
 			children = (
 				15933D501DCA897A00A8D067 /* HeartRateSensor.h */,
 				15933D511DCA897A00A8D067 /* HeartRateSensor.m */,
+				15933D541DCA8B0200A8D067 /* Bike.h */,
+				15933D551DCA8B0200A8D067 /* Bike.m */,
 			);
 			name = comm;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15933D5C1DCA8C5500A8D067 /* WeakSet.m in Sources */,
+				15933D561DCA8B0200A8D067 /* Bike.m in Sources */,
 				15933D3B1DCA830700A8D067 /* AppDelegate.m in Sources */,
 				15933D3E1DCA830700A8D067 /* MasterViewController.m in Sources */,
 				15933D381DCA830700A8D067 /* main.m in Sources */,
