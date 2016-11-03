@@ -18,6 +18,7 @@
 		15933D581DCA8B1000A8D067 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15933D571DCA8B1000A8D067 /* CoreBluetooth.framework */; };
 		15933D561DCA8B0200A8D067 /* Bike.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D551DCA8B0200A8D067 /* Bike.m */; };
 		15933D5C1DCA8C5500A8D067 /* WeakSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D5B1DCA8C5500A8D067 /* WeakSet.m */; };
+		15933D5F1DCAA01200A8D067 /* CommunicationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D5E1DCAA01200A8D067 /* CommunicationsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		15933D551DCA8B0200A8D067 /* Bike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bike.m; path = comm/Bike.m; sourceTree = "<group>"; };
 		15933D5A1DCA8C5500A8D067 /* WeakSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeakSet.h; path = util/WeakSet.h; sourceTree = "<group>"; };
 		15933D5B1DCA8C5500A8D067 /* WeakSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeakSet.m; path = util/WeakSet.m; sourceTree = "<group>"; };
+		15933D5D1DCAA01200A8D067 /* CommunicationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommunicationsManager.h; path = comm/CommunicationsManager.h; sourceTree = "<group>"; };
+		15933D5E1DCAA01200A8D067 /* CommunicationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommunicationsManager.m; path = comm/CommunicationsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				15933D511DCA897A00A8D067 /* HeartRateSensor.m */,
 				15933D541DCA8B0200A8D067 /* Bike.h */,
 				15933D551DCA8B0200A8D067 /* Bike.m */,
+				15933D5D1DCAA01200A8D067 /* CommunicationsManager.h */,
+				15933D5E1DCAA01200A8D067 /* CommunicationsManager.m */,
 			);
 			name = comm;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				15933D3E1DCA830700A8D067 /* MasterViewController.m in Sources */,
 				15933D381DCA830700A8D067 /* main.m in Sources */,
 				15933D411DCA830700A8D067 /* DetailViewController.m in Sources */,
+				15933D5F1DCAA01200A8D067 /* CommunicationsManager.m in Sources */,
 				15933D521DCA897A00A8D067 /* HeartRateSensor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
