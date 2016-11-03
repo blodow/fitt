@@ -8,8 +8,12 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import "CommunicationsManager.h"
+#import "ConsoleLogger.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
+
+@property (nonatomic, strong) ConsoleLogger* consoleLogger;
 
 @end
 
@@ -22,6 +26,12 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
+    
+    [CommunicationsManager.sharedManager connect];
+    self.consoleLogger = [[ConsoleLogger alloc] init];
+    HeartRateSensor* sensor = CommunicationsManager.sharedManager.heartRateSensor;
+    [sensor.observers addObject:self.consoleLogger];
+    
     return YES;
 }
 
