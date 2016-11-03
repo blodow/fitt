@@ -19,6 +19,7 @@
 		15933D561DCA8B0200A8D067 /* Bike.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D551DCA8B0200A8D067 /* Bike.m */; };
 		15933D5C1DCA8C5500A8D067 /* WeakSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D5B1DCA8C5500A8D067 /* WeakSet.m */; };
 		15933D5F1DCAA01200A8D067 /* CommunicationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D5E1DCAA01200A8D067 /* CommunicationsManager.m */; };
+		15933D621DCAAE6B00A8D067 /* ConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 15933D611DCAAE6B00A8D067 /* ConsoleLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		15933D5B1DCA8C5500A8D067 /* WeakSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeakSet.m; path = util/WeakSet.m; sourceTree = "<group>"; };
 		15933D5D1DCAA01200A8D067 /* CommunicationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommunicationsManager.h; path = comm/CommunicationsManager.h; sourceTree = "<group>"; };
 		15933D5E1DCAA01200A8D067 /* CommunicationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommunicationsManager.m; path = comm/CommunicationsManager.m; sourceTree = "<group>"; };
+		15933D601DCAAE6B00A8D067 /* ConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleLogger.h; path = util/ConsoleLogger.h; sourceTree = "<group>"; };
+		15933D611DCAAE6B00A8D067 /* ConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsoleLogger.m; path = util/ConsoleLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 			children = (
 				15933D5A1DCA8C5500A8D067 /* WeakSet.h */,
 				15933D5B1DCA8C5500A8D067 /* WeakSet.m */,
+				15933D601DCAAE6B00A8D067 /* ConsoleLogger.h */,
+				15933D611DCAAE6B00A8D067 /* ConsoleLogger.m */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15933D5C1DCA8C5500A8D067 /* WeakSet.m in Sources */,
+				15933D621DCAAE6B00A8D067 /* ConsoleLogger.m in Sources */,
 				15933D561DCA8B0200A8D067 /* Bike.m in Sources */,
 				15933D3B1DCA830700A8D067 /* AppDelegate.m in Sources */,
 				15933D3E1DCA830700A8D067 /* MasterViewController.m in Sources */,
